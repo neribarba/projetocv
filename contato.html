@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nerilton mendes</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+<!-- Este é o menu de navegação que estará presente em todas as páginas -->
+    <body>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="sobre mim.html">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a href="formacao.html">Formação</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <header class="center">
+                <div>
+                    <img src="./img/Capturas de tela/Captura de tela 2024-08-23 124209.png"></img>
+                </div>
+                <h1>Entre em contato!</h1>
+            </header>
+            <form class="contact-form" action="https://nerilton2010@hotmail.com" method="POST">
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" required>
+                </div>
+                <div>
+                    <label for="name">Nome</label>
+                    <input type="name" name="name" required>
+                </div>
+                <div>
+                    <label for="message">Mensagem</label>
+                    <input type="text" id="message" name="message" required>
+                </div>
+                <button type="submit">enviar</button>
+                <input type="hidden" name="_next" value="https://nerilton2010@hotmail.com">
+                <input type="hidden" name="_subject" value="New submission!">
+            </form>
+        </div>
+    </body
